@@ -1,9 +1,9 @@
-import { Box, Button, ScaleFade, SlideFade, useDisclosure } from "@chakra-ui/react";
+import { Box, Button, SlideFade } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
+import { FiPlus } from "react-icons/fi";
 import { v4 as uuidv4 } from "uuid";
 import CalcRow from "./CalcRow";
 import Result from "./Result";
-import { FiPlus } from "react-icons/fi";
 
 const rowModel = { id: uuidv4(), positive: true, value: 0, disabled: false };
 

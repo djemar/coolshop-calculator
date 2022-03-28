@@ -1,6 +1,4 @@
-import React, { useState } from "react";
 import {
-  Box,
   Button,
   Flex,
   NumberDecrementStepper,
@@ -10,6 +8,7 @@ import {
   NumberInputStepper,
   Select,
 } from "@chakra-ui/react";
+import React, { useState } from "react";
 import { FiCheck, FiSlash, FiTrash2 } from "react-icons/fi";
 
 function CalcRow(props) {
@@ -28,6 +27,7 @@ function CalcRow(props) {
   };
 
   const handleChange = (value) => {
+    if (value === "") value = 0;
     setValue(value);
     var tmpRowsOp = [...rowsOp];
     var i = getItemIndex();
