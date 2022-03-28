@@ -4,7 +4,7 @@ import React from "react";
 function Title(props) {
   return (
     <Flex className='justify-center items-center mb-16'>
-      <Image className='-mr-12 animate-spin' boxSize='64px' src='https://cdn.svgporn.com/logos/react.svg' />
+      <Image className='-mr-12' boxSize='64px' src='https://cdn.svgporn.com/logos/react.svg' />
       <Box className='text-center'>
         <Heading as='h1' size='2xl' id='calc-title'>
           Calculator
