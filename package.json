@@ -1,0 +1,34 @@
+{
+  "name": "coolshop-tech-challenge",
+  "version": "1.0.0",
+  "description": "React tech challenge for coolshop.it",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@chakra-ui/react": "1.8.6",
+    "@emotion/react": "11.8.2",
+    "@emotion/styled": "11.8.1",
+    "framer-motion": "6.2.8",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "react-icons": "4.3.1",
+    "react-scripts": "5.0.0",
+    "uuid": "8.3.2"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.13.8",
+    "typescript": "4.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

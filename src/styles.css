@@ -1,0 +1,27 @@
+#calc-title {
+  color: #057bff;
+}
+#calc-tech {
+  color: #001560;
+}
+
+body {
+  text-align: center;
+}
+
+.pattern {
+  margin-top: 56px;
+  background: linear-gradient(90deg, #fff 20px, transparent 1%) center,
+    linear-gradient(#fff 20px, transparent 1%) center, #f2f2f2;
+  background-size: 22px 22px;
+}
+
+.result {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 100;
+  /*   -webkit-box-shadow: 0px -10px 40px rgba(57, 90, 133, 0.05);
+  -moz-box-shadow: 0px -10px 40px rgba(57, 90, 133, 0.05);
+  box-shadow: 0px -10px 40px rgba(57, 90, 133, 0.05); */
+}
